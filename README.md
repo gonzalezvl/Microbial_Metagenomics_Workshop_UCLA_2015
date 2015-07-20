@@ -3,5 +3,15 @@
 ##
 
 
-This repository contains presentations, practicals and data files to be used.
+This repository contains presentations, practicals and data files to be used. 
 
+Specifically it contains:
+
+1. This `README.md`
+2. The Schedule of the course, `Schedule.md`
+3. Daily repositories, `Monday` - `Friday`. 
+4. LICENSE
+
+##In Monday
+1. A folder of the `Slides` for the day.
+2. A folder for the `Command_line_practical` containing the instructions and data needed to complete the `exercises`.
