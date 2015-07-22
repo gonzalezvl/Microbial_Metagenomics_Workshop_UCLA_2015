@@ -15,3 +15,6 @@ Specifically it contains:
 ##In Monday
 1. A folder of the `Slides` for the day.
 2. A folder for the `Command_line_practical` containing the instructions and data needed to complete the `exercises`.
+
+##In Tuesday
+1. A folder of the `Slides` for the day.
