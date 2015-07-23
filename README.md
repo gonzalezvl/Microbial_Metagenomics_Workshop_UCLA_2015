@@ -18,3 +18,4 @@ Specifically it contains:
 
 ##In Tuesday
 1. A folder of the `Slides` for the day.
+2. Summarize Taxa (QIIME) data files for each group (CS,LMJ,SSJ)
