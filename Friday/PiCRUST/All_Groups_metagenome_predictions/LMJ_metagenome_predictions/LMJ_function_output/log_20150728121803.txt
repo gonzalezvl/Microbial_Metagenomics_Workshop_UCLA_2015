@@ -1,0 +1,43 @@
+Logging started at 12:18:03 on 28 Jul 2015
+QIIME version: 1.9.1
+
+qiime_config values:
+blastmat_dir	/qiime_software/blast-2.2.22-release/data
+pick_otus_reference_seqs_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+sc_queue	all.q
+pynast_template_alignment_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set_aligned/85_otus.pynast.fasta
+cluster_jobs_fp	start_parallel_jobs.py
+assign_taxonomy_reference_seqs_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/rep_set/97_otus.fasta
+torque_queue	friendlyq
+jobs_to_start	1
+denoiser_min_per_core	50
+assign_taxonomy_id_to_taxonomy_fp	/usr/local/lib/python2.7/dist-packages/qiime_default_reference/gg_13_8_otus/taxonomy/97_otu_taxonomy.txt
+temp_dir	/tmp/
+blastall_fp	/qiime_software/blast-2.2.22-release/bin/blastall
+seconds_to_sleep	1
+
+parameter file values:
+summarize_taxa:md_identifier	"KEGG_Pathways"
+summarize_taxa:level	3
+
+Input file md5 sums:
+LMJ_CbF.biom: 3b91487e715fe1615e784c0b68a559ff
+
+Executing commands.
+
+# Summarize Taxonomy command 
+summarize_taxa.py -i LMJ_CbF.biom -o LMJ_function_output --md_identifier "KEGG_Pathways" --level 3
+
+Stdout:
+
+Stderr:
+
+# Plot Taxonomy Summary command 
+plot_taxa_summary.py -i LMJ_function_output/LMJ_CbF_L3.txt -o LMJ_function_output/taxa_summary_plots/ 
+
+Stdout:
+
+Stderr:
+
+
+Logging stopped at 12:19:37 on 28 Jul 2015
